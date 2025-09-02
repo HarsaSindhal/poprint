@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "PO Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "PO Print"
+  },
+  "ui5AppDetails": {
+    "appId": "zpoprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_C63476D28B2CC903AC8406DCA8C78A551030CB5E_TM",
+    "semanticObject": "zpo_print",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_C63476D28B2CC903AC8406DCA8C78A551030CB5E_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "PO Print",
+        "subtitle": "MM"
+      }
+    }
+  ]
+}

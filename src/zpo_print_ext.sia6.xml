@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZPO_PRINT_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>APP FOR PO PRINT</DESCRIPTION>
+     <RESPONSIBLE>CB9980000007</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>JPX</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZMM_PO_PRINT</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZPO_PRINT_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZPO_PRINT_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZMM_PO_PRINT_HTTP</REL_NAME>
+      <REL_TYPE>HTTP</REL_TYPE>
+      <APP_ID>ZPO_PRINT_EXT</APP_ID>
+      <SRVC_NAME>6893E3CE76D772F28FD2A2393AAE57</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Handler Class for po print</TEXT>
+      <TYPE_TEXT>HTTP Service</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

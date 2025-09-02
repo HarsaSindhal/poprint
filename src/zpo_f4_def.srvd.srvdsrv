@@ -1,0 +1,4 @@
+@EndUserText.label: 'po f4 service defination'
+define service ZPO_F4_DEF {
+  expose ZPO_F4;
+}
